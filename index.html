@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Binary to Decimal Converter</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Binary to Decimal Converter</h1>
+      <div class="digit-labels">
+        <div class="digit-label">128</div>
+        <div class="digit-label">64</div>
+        <div class="digit-label">32</div>
+        <div class="digit-label">16</div>
+        <div class="digit-label">8</div>
+        <div class="digit-label">4</div>
+        <div class="digit-label">2</div>
+        <div class="digit-label">1</div>
+      </div>
+      <div id="binary-number" class="binary-number">
+        <input id="binary-digit-8" type="checkbox" data-multiplier="128" />
+        <label for="binary-digit-8"> </label>
+        <input id="binary-digit-7" type="checkbox" data-multiplier="64" />
+        <label for="binary-digit-7"> </label>
+        <input id="binary-digit-6" type="checkbox" data-multiplier="32" />
+        <label for="binary-digit-6"> </label>
+        <input id="binary-digit-5" type="checkbox" data-multiplier="16" />
+        <label for="binary-digit-5"> </label>
+        <input id="binary-digit-4" type="checkbox" data-multiplier="8" />
+        <label for="binary-digit-4"> </label>
+        <input id="binary-digit-3" type="checkbox" data-multiplier="4" />
+        <label for="binary-digit-3"> </label>
+        <input id="binary-digit-2" type="checkbox" data-multiplier="2" />
+        <label for="binary-digit-2"> </label>
+        <input id="binary-digit-1" type="checkbox" data-multiplier="1" />
+        <label for="binary-digit-1"> </label>
+      </div>
+      <div class="decimal-number">
+        <h3 id="decimal" class="decimal-number"></h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
